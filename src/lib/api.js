@@ -29,7 +29,7 @@ export async function getAllGenres() {
 }
 
 export async function getRandomAnime() {
-    const res = await fetch(`${DOMAIN_URL}random/anime/10/true`, {
+    const res = await fetch(`${DOMAIN_URL}random/anime/10/false`, {
         method: "GET",
     headers: {
       "Authorization":
